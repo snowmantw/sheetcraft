@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html><head><meta charset="UTF-8"><title>Main</title><style>html,head,body { padding:0; margin:0; }
+body { font-family: calibri, helvetica, arial, sans-serif; }</style>
+
+<link type="text/css" rel="stylesheet" href="/dist/main.css" />
+<script type="application/javascript" src="/dist/main.js"></script></head><body><script type="text/javascript">
+
+window.app = Elm.Main.init({
+    flags: {
+        configs: {
+            apiEndpoint: "http://127.0.0.1:50001/api/"
+        }
+    }
+});
+
+</script></body></html>
